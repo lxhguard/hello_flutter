@@ -52,4 +52,5 @@
 > 4. 列表项目放在Container部件中::因为需要设置字体颜色、外边距等等。
 > 5. debugShowCheckedModeBanner: false,可以使右上角的debug标志消失
 > 把我们学习的部件进行抽离，抽离到lib/demo中，文件名推荐使用_，而不要使用 -
-> 
+> 6. 添加小图标 AppBar(leading: IconButton())：：
+> 7. 

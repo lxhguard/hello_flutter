@@ -33,10 +33,22 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.menu),
+            tooltip: 'Navigration',
+            onPressed: () => debugPrint('Navigation click'),
+          ),
           title: Text('阿吉'),
+          actions: <Widget>[
+            IconButton(
+              icon: Icon(Icons.search),
+              tooltip: 'Search',
+              onPressed: () => debugPrint('search click'),
+            )
+          ],
           elevation: 0.0
         ),
-        body: ListViewDemo(),
+        body: null,
       );
   }
 }
