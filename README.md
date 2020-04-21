@@ -54,4 +54,4 @@
 > 把我们学习的部件进行抽离，抽离到lib/demo中，文件名推荐使用_，而不要使用 -
 > 6. 添加小图标 AppBar(leading: IconButton())：：
 > 7. 选项卡Tab：： 三样东西 : TabBar标签栏，TabView标签视图，TabController标签控制器（按了什么标签，打开什么视图）
-> 
+> 8. 抽屉（边栏）效果： 需要从屏幕边缘滑动，drawer左边，endDrawer右。通过给抽屉赋值一个Container可以出来我们平时使用的APP简单模型。
