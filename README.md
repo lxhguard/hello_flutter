@@ -53,4 +53,5 @@
 > 5. debugShowCheckedModeBanner: false,可以使右上角的debug标志消失
 > 把我们学习的部件进行抽离，抽离到lib/demo中，文件名推荐使用_，而不要使用 -
 > 6. 添加小图标 AppBar(leading: IconButton())：：
-> 7. 
+> 7. 选项卡Tab：： 三样东西 : TabBar标签栏，TabView标签视图，TabController标签控制器（按了什么标签，打开什么视图）
+> 
