@@ -48,4 +48,4 @@
 > 2. Scaffold()是material风格的组件，包含常用的组件：顶部工具栏在appBar属性，顶部工具栏中Appbar阴影效果为elevation属性，主体在body属性。主题可以通过theme属性，再选择ThemeData组件
 > 3. 模拟后端服务（准备数据）：（1）定义类型：：lib下新建model文件夹，其下新建post.dart文件。定义class Post ，每个Post中的内容由const声明来决定。接下来定义数据类型。final关键字为赋值数据就不会改变。这只是定义了类型。
 > （2）定义mock数据：：使用final直接赋值就ok。这里赋值为List<Post>类型。
-> 
+> (3) 创建列表视图：使用ListView.builder组件方法。

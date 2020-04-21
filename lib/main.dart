@@ -1,5 +1,6 @@
 // material是指Google推行的设计风格
 import 'package:flutter/material.dart';
+import 'model/post.dart';
 
 void main(){
   runApp(App());
@@ -16,17 +17,32 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('阿吉'),
-          elevation: 0.0
-        ),
-        body: Hello()
-      ),
+      home: Home(),
       theme: ThemeData(
         primarySwatch: Colors.yellow
       )
     );
+  }
+}
+
+class Home extends StatelessWidget {
+  Widget _listItemBuilder(BuildContext context, int index){
+    return Text(posts[index].title);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('阿吉'),
+          elevation: 0.0
+        ),
+        body: ListView.builder(
+          itemCount: posts.length,
+          itemBuilder: _listItemBuilder,
+        )
+      );
   }
 }
 
@@ -44,7 +60,7 @@ class Hello extends StatelessWidget {
           color: Colors.black87
         )
       )
-    );;
+    );
   }
 }
 
