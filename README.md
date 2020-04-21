@@ -50,3 +50,6 @@
 > （2）定义mock数据：：使用final直接赋值就ok。这里赋值为List<Post>类型。
 > (3) 创建列表视图：使用ListView.builder组件方法。
 > 4. 列表项目放在Container部件中::因为需要设置字体颜色、外边距等等。
+> 5. debugShowCheckedModeBanner: false,可以使右上角的debug标志消失
+> 把我们学习的部件进行抽离，抽离到lib/demo中，文件名推荐使用_，而不要使用 -
+> 
