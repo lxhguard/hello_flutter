@@ -49,3 +49,4 @@
 > 3. 模拟后端服务（准备数据）：（1）定义类型：：lib下新建model文件夹，其下新建post.dart文件。定义class Post ，每个Post中的内容由const声明来决定。接下来定义数据类型。final关键字为赋值数据就不会改变。这只是定义了类型。
 > （2）定义mock数据：：使用final直接赋值就ok。这里赋值为List<Post>类型。
 > (3) 创建列表视图：使用ListView.builder组件方法。
+> 4. 列表项目放在Container部件中::因为需要设置字体颜色、外边距等等。
