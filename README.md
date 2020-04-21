@@ -39,3 +39,10 @@
 - 此时你如果想运行在指定设备上，可以：
 - flutter run -d 指定设备的id
 - 此时，你的项目会在IOS模拟器上自动打开。
+- flutter run之后，你可以在终端每次修改完代码，按r键，就可以热更新了
+
+
+#   三。代码开发
+> rsw rfw可以快速创建类
+> 在class类中 输入build可以快速构建重载方法
+> Scaffold()是material风格的组件，包含常用的组件：顶部工具栏在appBar属性，顶部工具栏中Appbar阴影效果为elevation属性，主体在body属性。主题可以通过theme属性，再选择ThemeData组件
