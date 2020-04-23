@@ -58,4 +58,4 @@
 > 9. 对抽屉进行UI切图
 > 10. 进行按钮打开抽屉，按钮关闭抽屉。删除之前的左上角的图标代码，自动添加打开
 > 11. 抽屉中：顶部用户信息使用UserAccountsDrawerHeader，其下三个属性可以设置用户名、邮箱、头像
-> 
+> 12. 抽屉中：设置头像背景使用UserAccountsDrawerHeader属性值decoration

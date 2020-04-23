@@ -75,6 +75,17 @@ class Home extends StatelessWidget {
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage('https://i1.hdslb.com/bfs/face/2b14b9241f18005686ee8dde484e86ad73515526.jpg'),
                 ),
+                decoration: BoxDecoration(
+                  color: Colors.yellow[400],
+                  image: DecorationImage(
+                    image: NetworkImage('https://i0.hdslb.com/bfs/sycp/creative_img/202004/2641873644f6388a2c44539426268dc3.jpg'),
+                    fit: BoxFit.cover,
+                    colorFilter: ColorFilter.mode(
+                      Colors.yellow[400].withOpacity(0.6),
+                      BlendMode.hardLight
+                    )
+                  )
+                ),
               ),
               ListTile(
                 title: Text('Messages', textAlign: TextAlign.right,),
