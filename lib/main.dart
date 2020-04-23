@@ -37,11 +37,7 @@ class Home extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          leading: IconButton(
-            icon: Icon(Icons.menu),
-            tooltip: 'Navigration',
-            onPressed: () => debugPrint('Navigation click'),
-          ),
+          
           title: Text('阿吉'),
           actions: <Widget>[
             IconButton(
@@ -82,14 +78,17 @@ class Home extends StatelessWidget {
               ListTile(
                 title: Text('Messages', textAlign: TextAlign.right,),
                 trailing: Icon(Icons.message, color: Colors.black12, size: 22.0),
+                onTap: () => Navigator.pop(context),             
               ),
               ListTile(
                 title: Text('Favorite', textAlign: TextAlign.right,),
                 trailing: Icon(Icons.message, color: Colors.black12, size: 22.0),
+                onTap: () => Navigator.pop(context),
               ),
               ListTile(
                 title: Text('Settings', textAlign: TextAlign.right,),
                 trailing: Icon(Icons.message, color: Colors.black12, size: 22.0),
+                onTap: () => Navigator.pop(context),
               ),
             ],
           )

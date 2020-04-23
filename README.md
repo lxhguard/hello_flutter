@@ -55,3 +55,5 @@
 > 6. 添加小图标 AppBar(leading: IconButton())：：
 > 7. 选项卡Tab：： 三样东西 : TabBar标签栏，TabView标签视图，TabController标签控制器（按了什么标签，打开什么视图）
 > 8. 抽屉（边栏）效果： 需要从屏幕边缘滑动，drawer左边，endDrawer右。通过给抽屉赋值一个Container可以出来我们平时使用的APP简单模型。
+> 9. 对抽屉进行UI切图
+> 10. 进行按钮打开抽屉，按钮关闭抽屉。删除之前的左上角的图标代码，自动添加打开
