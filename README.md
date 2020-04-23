@@ -59,3 +59,4 @@
 > 10. 进行按钮打开抽屉，按钮关闭抽屉。删除之前的左上角的图标代码，自动添加打开
 > 11. 抽屉中：顶部用户信息使用UserAccountsDrawerHeader，其下三个属性可以设置用户名、邮箱、头像
 > 12. 抽屉中：设置头像背景使用UserAccountsDrawerHeader属性值decoration
+> 13. 主页面：添加底部导航栏使用bottomNavigationBar：BottomNavigationBar部件的子元素超过四个时，他会自改变Bar类型，所以要添加type

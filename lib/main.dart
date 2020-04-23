@@ -105,6 +105,16 @@ class Home extends StatelessWidget {
             ],
           )
         ),
+        bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
+          fixedColor: Colors.black,
+          items: [
+            BottomNavigationBarItem(icon: Icon(Icons.explore),title: Text('Expore')),
+            BottomNavigationBarItem(icon: Icon(Icons.history),title: Text('History')),
+            BottomNavigationBarItem(icon: Icon(Icons.list),title: Text('List')),
+            BottomNavigationBarItem(icon: Icon(Icons.person),title: Text('My')),
+          ],
+        ),
       )
     );
   }
