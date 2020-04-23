@@ -1,7 +1,7 @@
 // material是指Google推行的设计风格
 import 'package:flutter/material.dart';
 import './demo/listview_demo.dart';
-import './demo/hello_demo.dart';
+import './demo/bottom_navigation_bar_demo.dart';
 
 void main(){
   runApp(App());
@@ -105,16 +105,9 @@ class Home extends StatelessWidget {
             ],
           )
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          fixedColor: Colors.black,
-          items: [
-            BottomNavigationBarItem(icon: Icon(Icons.explore),title: Text('Expore')),
-            BottomNavigationBarItem(icon: Icon(Icons.history),title: Text('History')),
-            BottomNavigationBarItem(icon: Icon(Icons.list),title: Text('List')),
-            BottomNavigationBarItem(icon: Icon(Icons.person),title: Text('My')),
-          ],
-        ),
+        bottomNavigationBar: BottomNavigationBarDemo(
+          
+        )
       )
     );
   }
